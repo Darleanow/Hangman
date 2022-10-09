@@ -1,9 +1,29 @@
 # Hangman
 
-#SETUP
-The program uses curl.h which can be installed using apt install curl.
+Hangman Game, with a terrible Ascii.
 
-#Additionnal
-Made with love using VIM and DOCKER
+Word Generation is made with an API request.
 
-Out is just the compiled version, which won't work on most of computers.
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  sudo apt install libcurl3
+```
+
+And compile using
+
+```
+  g++ main.cpp -o out -lcurl
+```
+## Appendix
+
+Made with love using VIM and Docker.
+
+
+## Author
+
+- [@Darleanow](https://www.github.com/Darleanow)
+
